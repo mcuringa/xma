@@ -1,0 +1,9 @@
+NameVirtualHost *:80
+<VirtualHost *:80>
+    ServerName xma.curinga.com
+	
+	DocumentRoot /var/www/xma
+    CustomLog /var/log/apache2/xma combined
+    ErrorLog /var/log/apache2/xma-error 
+
+</VirtualHost>
