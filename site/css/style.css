@@ -89,6 +89,11 @@ section
     background-color: #FDBA09;
 }
 
+#about p strong
+{
+    color: black;
+}
+
 #about h2
 {
     margin: 0;
@@ -116,24 +121,95 @@ section
     -moz-hyphens: auto;
 }
 
+
+#about p#tracks
+{
+    font-size: 100%;
+}
+
 /* ---------------------------------------------------------  Study */
 
 #study
 {
-    background-color: pink;
+    background-color: black;
+    color: white;
 }
 
+#study div.center
+{
+    width: 640px;
+    margin: 0 auto;
+}
+
+#study div.left
+{
+    border: 1px solid gray;
+    width: 250px;
+    float: left;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 8px;  
+}
+
+#hacking
+{
+    clear: both;
+}
+
+/* ---------------------------------------------------------  Courses */
 
 #courses
 {
-    background-color: yellow;
-}
-
-#people
-{
     background-color: gray;
 }
+#courses h1
+{
+    text-align: center;
+}
 
+#courses p
+{
+    padding: 0 1em;
+}
+
+#courses div
+{
+    margin: 2em auto;
+    background-color: white;
+    width: 640px;
+    padding: 1em 0;
+    border-radius: 16px;
+}
+
+#courses table
+{
+  border-collapse:collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+#courses th
+{
+  background: black;
+  color: white;
+  font-weight: bold;
+}
+#courses tr:nth-child(even) {background: #CCC}
+#courses tr:nth-child(odd) {background: #FFF}
+
+/* ---------------------------------------------------------  contact */
+
+#contact
+{
+    padding: 2em;
+    background-color: pink;
+    text-align: center;
+    color: gray;
+}
+
+#contact p
+{
+    font-size: 320%;
+}
 
 
 
