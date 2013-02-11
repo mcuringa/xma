@@ -57,6 +57,12 @@ section
 {
     background: url("img/robots.jpg") no-repeat left top #efefef;
     height: 720px;
+    position: relative;
+}
+
+#welcome li > * 
+{
+    position: absolute;
 }
 
 #welcome h1, #welcome h2
