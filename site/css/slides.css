@@ -1,0 +1,16 @@
+#slides {
+
+    border: black solid 3px;
+    height: 370px;
+    margin: 40px auto;
+    position: relative;
+    width: 450px;
+
+}
+
+#slides li > * {
+    position: absolute;
+}
+
+
+
