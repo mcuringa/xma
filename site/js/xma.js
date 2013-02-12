@@ -8,8 +8,15 @@ Github: https://github.com/mcuringa/xma
 */
 
 
+$(function(){
+    $('#slides').slides({
+        preload: true,
+        generateNextPrev: true
+    });
+});
+
 
 //run this when the page is ready
-$(document).ready(function(){
-    var sequence = $("#welcome").sequence().data("sequence");
-});
+//~ $(document).ready(function(){
+    //~ var sequence = $("#welcome").sequence().data("sequence");
+//~ });

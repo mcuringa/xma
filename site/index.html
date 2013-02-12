@@ -27,7 +27,17 @@ http://education.adelphi.edu/ed-tech
 
 <head>
     <title>Adelphi Accelerated Masters in Educational Technology</title>
+
     <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link href="css/slides.css" type="text/css" rel="stylesheet" />
+
+    <script src="js/jquery-1.9.1.min.js"></script>
+<!--
+    <script src="js/slides.min.jquery.js"></script>
+-->
+<script src="js/sequence.jquery-min.js"></script>
+    <script src="js/xma.js"></script>
+
     <meta charset="utf-8" />
 </head>
 
@@ -38,12 +48,24 @@ http://education.adelphi.edu/ed-tech
     <h2>Adelphi Manhattan</h2>
     <h1>Accelerated Masters in Educational Technology</h1>
 
-    <ul>
-        <li>earn your Masters in a year</li>
-        <li>study online</li>
-        <li>study in Manhattan</li>
-    </ul>
-
+    <div id="slides">
+        <div class="slides_container">
+            <div class="slide">
+                <h2>Earn your Masters in a year</h2>
+                And help design the future of learning.
+            </div>
+            <div class="slide">
+                <h2>Study in Manhattan</h2>
+                The Adelphi Manhattan Center, in Tribeca is the site
+                of our intensive summer study, and the gateway to New York
+                City's vibrant technology community.
+            </div>
+            <div class="slide">
+                <h2>Study online</h2>
+                Use the latest tools to study online
+            </div>
+        </div>
+    </div>
 </section>
 
 <section id="about">
@@ -255,12 +277,12 @@ http://education.adelphi.edu/ed-tech
 </section>
 
 <nav id="main-nav">
-<a href="#welcome">home</a>
-<a href="#about">about</a>
-<a href="#study">prinicples</a>
-<a href="#courses">courses</a>
-<a href="#facts">facts</a>
-<a href="#contact">contact</a>
+    <a href="#welcome">home</a>
+    <a href="#about">about</a>
+    <a href="#study">prinicples</a>
+    <a href="#courses">courses</a>
+    <a href="#facts">facts</a>
+    <a href="#contact">contact</a>
 </nav>
 
 </body>
