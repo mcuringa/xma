@@ -7,16 +7,16 @@ A single page website for the Accelerated Masters Program in Educational
 Technology at the Adelphi University Manhattan Center.
 
     /\      | |    | |     | |   (_)
-   /  \   __| | ___| |_ __ | |__  _ 
+   /  \   __| | ___| |_ __ | |__  _
   / /\ \ / _` |/ _ \ | '_ \| '_ \| |
  / ____ \ (_| |  __/ | |_) | | | | |
 /_/    \_\__,_|\___|_| .__/|_| |_|_|
-                     | |            
-                     |_|            
- ______    _   _______        _     
-|  ____|  | | |__   __|      | |    
-| |__   __| |    | | ___  ___| |__  
-|  __| / _` |    | |/ _ \/ __| '_ \ 
+                     | |
+                     |_|
+ ______    _   _______        _
+|  ____|  | | |__   __|      | |
+| |__   __| |    | | ___  ___| |__
+|  __| / _` |    | |/ _ \/ __| '_ \
 | |___| (_| |    | |  __/ (__| | | |
 |______\__,_|    |_|\___|\___|_| |_|
 
@@ -29,7 +29,9 @@ http://education.adelphi.edu/ed-tech
     <title>Adelphi Accelerated Masters in Educational Technology</title>
 
     <link href="css/style.css" type="text/css" rel="stylesheet" />
-    <link href="css/slides.css" type="text/css" rel="stylesheet" />
+    <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 900px)' href='css/tablet.css' />
+
+<!--    <link href="css/slides.css" type="text/css" rel="stylesheet" />-->
 
     <script src="js/jquery-1.9.1.min.js"></script>
 <!--
@@ -45,8 +47,10 @@ http://education.adelphi.edu/ed-tech
 
 <section id="welcome">
 
-    <h2>Adelphi Manhattan</h2>
-    <h1>Accelerated Masters in Educational Technology</h1>
+    <div id="au">
+        <h2>Adelphi University</h2>
+        <h1>Accelerated Masters in Educational Technology</h1>
+    </div>
 
     <div id="slides">
         <div class="slides_container">
@@ -181,7 +185,7 @@ http://education.adelphi.edu/ed-tech
         <tr>
           <th>Fall</th>
           <th>-</th>
-        </tr>   
+        </tr>
         <tr>
           <td>EDT 503</td>
           <td>Technology and the School Curriculum</td>
@@ -273,7 +277,7 @@ http://education.adelphi.edu/ed-tech
         <a href="mailto://matt@curinga.com">mcuringa@adelphi.edu</a><br />
         for more information.
     </p>
-    
+
 </section>
 
 <nav id="main-nav">

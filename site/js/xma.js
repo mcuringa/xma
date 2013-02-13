@@ -8,13 +8,26 @@ Github: https://github.com/mcuringa/xma
 */
 
 
-$(function(){
-    $('#slides').slides({
-        preload: true,
-        generateNextPrev: true
-    });
-});
 
+
+
+// $(function() {
+//     $("#bt").click(function() {
+//         $(".box").toggleClass("box-change");
+//     });
+// });
+
+
+
+
+
+// $(function(){
+//     $('#slides').slides({
+//         preload: true,
+//         generateNextPrev: true
+//     });
+// });
+//
 
 //run this when the page is ready
 //~ $(document).ready(function(){
