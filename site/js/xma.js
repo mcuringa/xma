@@ -8,28 +8,27 @@ Github: https://github.com/mcuringa/xma
 */
 
 
+//dynamically set the section height to be the height of the viewport
+function sectionHeight()
+{
+    $("section").css("min-height", "" + $(window).height());
+}
 
+$(function() {
+    sectionHeight();
+    $(window).bind('resize', sectionHeight);
+});
 
-
-// $(function() {
-//     $("#bt").click(function() {
-//         $(".box").toggleClass("box-change");
-//     });
-// });
-
-
-
-
-
-// $(function(){
-//     $('#slides').slides({
-//         preload: true,
-//         generateNextPrev: true
-//     });
-// });
-//
-
-//run this when the page is ready
-//~ $(document).ready(function(){
-    //~ var sequence = $("#welcome").sequence().data("sequence");
-//~ });
+$(function()
+{
+    $('a[href^="#"]').bind('click.smoothscroll',function (e) {
+        e.preventDefault();
+        var target = this.hash;
+            $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 500, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+});

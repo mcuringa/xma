@@ -56,7 +56,9 @@ section
 #welcome
 {
     background: url("img/robots.jpg") no-repeat left top #efefef;
-    height: 720px;
+/*
+    min-height: 720px;
+*/
     position: relative;
 }
 
