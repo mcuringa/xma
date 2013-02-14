@@ -59,6 +59,7 @@ section
     height: 720px;
     position: relative;
 }
+
 #welcome #au
 {
     text-align: center;
@@ -181,27 +182,27 @@ section
     padding: 0 1em;
 }
 
-#courses div
+#courses table, #courses p
 {
-    margin: 2em auto;
-    background-color: white;
-    width: 640px;
+    margin: 1em auto;
+    max-width: 640px;
     padding: 1em 0;
-    border-radius: 16px;
 }
 
 #courses table
 {
   border-collapse:collapse;
   width: 100%;
-  margin: 1em 0;
+  line-height: 1.5em;
 }
+
 #courses th
 {
   background: black;
   color: white;
   font-weight: bold;
 }
+
 #courses tr:nth-child(even) {background: #CCC}
 #courses tr:nth-child(odd) {background: #FFF}
 

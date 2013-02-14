@@ -1,0 +1,131 @@
+/*
+ * Main styles for the xma website
+ * author: mxc
+ */
+
+/* set the default font and font-size */
+html, body, section, div, span, p, header, nav, h1, h2, h3, h4, h5, h6,
+li, dd, dt, blockquote, table
+{
+    width: inherit !important;
+    max-width: inherit !important;
+    border-style: none !important;
+}
+
+section
+{
+    padding: 0;
+    overflow: hidden;
+
+}
+
+div, p
+{
+    margin: inherit auto !important;
+    padding: .25 !important;
+/*
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+*/
+}
+
+#welcome
+{
+    background: url("") no-repeat left top #591F00;
+    font-size: inherit;
+    height: inherit;
+}
+
+
+#welcome #au
+{
+    text-align: center;
+    color: white;
+    text-shadow: .1em .1em .5em black;
+    margin-top: 1em;
+    margin-left: 0;
+    text-align: center;
+}
+
+#welcome h1
+{
+    font-size: 130%;
+    margin-top: 0;
+    padding-top: 0;
+}
+#welcome h2
+{
+    font-size: 120%;
+}
+
+#welcome #slides
+{
+    border-radius: 0 0 0 0;
+    float: none;
+    font-size: 90%;
+    margin: 0 auto;
+    padding: 1em !important;
+    width: inherit;
+}
+
+/* ---------------------------------------------------------  About */
+
+#about h2
+{
+    margin: 0;
+    padding: 0;
+    font-size: 130%;
+}
+
+#about p
+{
+    font-size: 100%;
+    text-align: left;
+}
+
+/* ---------------------------------------------------------  Study */
+
+#study div.left
+{
+    float: none;
+    border-radius: 8px;
+    margin: 0;
+}
+
+
+/* ---------------------------------------------------------  Courses */
+
+#courses
+{
+    background-color: gray;
+}
+
+#courses table
+{
+    font-size: 90%;
+}
+
+
+/* ---------------------------------------------------------  contact */
+
+#contact
+{
+    padding: 1em 0;
+    text-align: center;
+}
+
+#contact p
+{
+    font-size: 130%;
+}
+
+
+/* ---------------------------------------------------------  main-nav */
+
+
+
+#main-nav
+{
+    display: none;
+}
