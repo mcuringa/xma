@@ -1,3 +1,4 @@
+/*
 #slides {
 
     border: black solid 3px;
@@ -10,6 +11,78 @@
 
 #slides li > * {
     position: absolute;
+}
+
+
+*/
+
+#welcome
+{
+    background: url("");
+}
+
+#welcome img
+{
+  position:absolute;
+  width:130%;
+  top:0%;
+  left:0%;
+
+  margin-left:-180px;
+  margin-top:-120px;
+
+  opacity:0;
+  -webkit-transition-property: opacity, -webkit-transform;
+  -webkit-transition-duration: 3s, 8s;
+     -moz-transition-property: opacity, -moz-transform;
+     -moz-transition-duration: 3s, 8s;
+      -ms-transition-property: opacity, -ms-transform;
+      -ms-transition-duration: 3s, 8s;
+       -o-transition-property: opacity, -o-transform;
+       -o-transition-duration: 3s, 8s;
+          transition-property: opacity, transform;
+          transition-duration: 3s, 8s;
+}
+#welcome img  {
+  -webkit-transform-origin: bottom left;
+     -moz-transform-origin: bottom left;
+      -ms-transform-origin: bottom left;
+       -o-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+#welcome :nth-child(2n+1) {
+  -webkit-transform-origin: top right;
+     -moz-transform-origin: top right;
+      -ms-transform-origin: top right;
+       -o-transform-origin: top right;
+          transform-origin: top right;
+}
+#welcome :nth-child(3n+1) {
+  -webkit-transform-origin: top left;
+     -moz-transform-origin: top left;
+      -ms-transform-origin: top left;
+       -o-transform-origin: top left;
+          transform-origin: top left;
+}
+#welcome :nth-child(4n+1) {
+  -webkit-transform-origin: bottom right;
+     -moz-transform-origin: bottom right;
+      -ms-transform-origin: bottom right;
+       -o-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+#welcome .fx:first-child + img ~ img  {
+  z-index:-1;
+}
+
+#welcome .fx {
+  opacity:1;
+  -webkit-transform: scale(1.5) translate(30px);
+     -moz-transform: scale(1.5) translate(30px);
+      -ms-transform: scale(1.5) translate(30px);
+       -o-transform: scale(1.5) translate(30px);
+          transform: scale(1.5) translate(30px);
 }
 
 

@@ -7,15 +7,13 @@ Github: https://github.com/mcuringa/xma
 
 */
 
-//vertically assign elements within vmid
+//vertically align elements within vmid
 function vmid()
 {
     var h = $(window).height();
     $(".vmid").each(function() {
-        console.log(h)
         var dif = h -$(this).height();
         var m = Math.round(dif/2);
-        console.log(m);
         $(this).css("margin-top", "" + m + "px");});
 }
 
@@ -36,9 +34,6 @@ $(function() {
 });
 
 
-
-
-
 $(function()
 {
     $('a[href^="#"]').bind('click.smoothscroll',function (e) {
@@ -52,3 +47,4 @@ $(function()
         });
     });
 });
+
