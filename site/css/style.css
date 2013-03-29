@@ -173,31 +173,66 @@ section
     clear: both;
 }
 
+/* ---------------------------------------------------------  Funding */
+#funding
+{
+    background-color: white;
+}
+#funding h3
+{
+    color: #BE2B19;
+    font-size: 430%;
+    float: left;
+    
+}
+#funding #jobs
+{
+    float: left;
+    width: 30%;
+    min-width: 400px;
+    margin: 1em;
+    font-size: 130%;
+    padding: 2em;
+    color: white;
+    background: #BE2B19;
+}
+
+#funding #jobs p
+{
+    padding: .5em 0;
+}
+
 /* ---------------------------------------------------------  Courses */
 
 #courses
 {
-    background-color: gray;
+    clear: both;
+    background: url("img/robot-race.jpg") no-repeat gray;
 }
 #courses h1
 {
+    width: 100%;
+    background-color: black;
+    color: white;
     text-align: center;
 }
-
-#courses p
-{
-    padding: 0 1em;
-}
-
 #courses table, #courses p
 {
-    margin: 1em auto;
+    margin: 1em;
     max-width: 640px;
     padding: 1em 0;
 }
 
+#courses p
+{
+    background: rgba(255,255,255,.9);
+    padding: .5em;
+}
+
+
 #courses table
 {
+  background: rgba(255,255,255,.9);
   border-collapse:collapse;
   width: 100%;
   line-height: 1.5em;
@@ -205,26 +240,42 @@ section
 
 #courses th
 {
-  background: black;
+  background: rgba(0,0,0,.8);
   color: white;
   font-weight: bold;
 }
 
-#courses tr:nth-child(even) {background: #CCC}
+/*
+#courses td, #courses th
+{
+    padding: .5em;
+}
+*/
+
+#courses tr:nth-child(even) {background: rgba(0,0,0,.4);}
+/*
 #courses tr:nth-child(odd) {background: #FFF}
+*/
 
 /* ---------------------------------------------------------  contact */
 
 #contact
 {
     padding: 2em;
-    background-color: pink;
+    background-color: #441700;
     text-align: center;
-    color: gray;
+    color: white;
 }
 
+#contact a, #contact a:visited
+{
+    background-color: white;
+    color: #441700;
+    padding: 0 .25em;
+}
 #contact p
 {
+    padding: 0 2em;
     font-size: 320%;
 }
 
