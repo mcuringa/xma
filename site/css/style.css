@@ -151,6 +151,21 @@ section
     color: white;
 }
 
+#study p
+{
+    hyphens: auto;
+    -moz-hyphens: auto;
+    text-align: justify;
+}
+
+#study a, #study a:visited
+{
+    padding: 0 .25em;
+    color: gray;
+    text-decoration: none;
+    border-bottom: dotted 1px gray;
+}
+
 #study div.center
 {
     width: 640px;
@@ -170,7 +185,9 @@ section
 
 #hacking
 {
+/*
     clear: both;
+*/
 }
 
 /* ---------------------------------------------------------  Funding */
@@ -262,17 +279,24 @@ section
 #contact
 {
     padding: 2em;
-    background-color: #441700;
     text-align: center;
     color: white;
+    background: url("img/au-trans.png") no-repeat scroll right bottom #441700;
+
 }
 
 #contact a, #contact a:visited
 {
-    background-color: white;
+    background: url("img/cloud.png") no-repeat scroll 0 0 transparent;
     color: #441700;
-    padding: 0 .25em;
+    display: block;
+    line-height: 131px;
+    margin: 0 auto;
+    padding: 0 0.25em 0 0.5em;
+    text-align: left;
+    width: 352px;
 }
+
 #contact p
 {
     padding: 0 2em;
