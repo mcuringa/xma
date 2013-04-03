@@ -281,13 +281,19 @@ section
     padding: 2em;
     text-align: center;
     color: white;
-    background: url("img/au-trans.png") no-repeat scroll right bottom #441700;
+}
+
+#contact #logo
+{
+    background: url("img/au-trans.png") no-repeat scroll center center #441700;
+    margin-bottom: 80px;
+    height: 200px;
 
 }
 
 #contact a, #contact a:visited
 {
-    background: url("img/cloud.png") no-repeat scroll 0 0 transparent;
+    background: url("img/cloud.png") no-repeat scroll 0 0 white;
     color: #441700;
     display: block;
     line-height: 131px;
@@ -299,8 +305,7 @@ section
 
 #contact p
 {
-    padding: 0 2em;
-    font-size: 320%;
+    font-size: 220%;
 }
 
 
