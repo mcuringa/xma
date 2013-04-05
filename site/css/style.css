@@ -55,6 +55,10 @@ section
     margin-top: 0px;
 }
 
+div.left-content
+{
+    max-width: 640px;
+}
 /* ---------------------------------------------------------  Welcome */
 
 
@@ -235,8 +239,6 @@ section
 }
 #courses table, #courses p
 {
-    margin: 1em;
-    max-width: 640px;
     padding: 1em 0;
 }
 
@@ -253,6 +255,8 @@ section
   border-collapse:collapse;
   width: 100%;
   line-height: 1.5em;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 #courses th
@@ -262,12 +266,12 @@ section
   font-weight: bold;
 }
 
-/*
-#courses td, #courses th
+
+#courses td
 {
     padding: .5em;
 }
-*/
+
 
 #courses tr:nth-child(even) {background: rgba(0,0,0,.4);}
 /*
@@ -281,6 +285,11 @@ section
     padding: 2em;
     text-align: center;
     color: white;
+    background-color: #441700;
+}
+#contact div.vmid
+{
+    padding: 0 3em;
 }
 
 #contact #logo
@@ -288,24 +297,19 @@ section
     background: url("img/au-trans.png") no-repeat scroll center center #441700;
     margin-bottom: 80px;
     height: 200px;
-
 }
 
 #contact a, #contact a:visited
 {
-    background: url("img/cloud.png") no-repeat scroll 0 0 white;
-    color: #441700;
-    display: block;
-    line-height: 131px;
-    margin: 0 auto;
     padding: 0 0.25em 0 0.5em;
-    text-align: left;
-    width: 352px;
+    border: 2px dotted white;
+    color: white;
 }
 
 #contact p
 {
     font-size: 220%;
+    margin: .5em 0;
 }
 
 
